@@ -30,7 +30,8 @@ spec:
             - '{{ .Values.poolDonationPercent }}'
             - --max-cpu-usage
             - '98'
-            - --coin monero
+            - --coin
+            - {{ .Values.coin }}
             - -o
             - {{ .Values.pool }}
             - -u
