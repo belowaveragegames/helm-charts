@@ -140,7 +140,7 @@ entries:
     created: "2020-03-28T16:42:07.683967-04:00"
     description: Deploy Monero miners in a Kubernetes cluster
     digest: 255d91c64e269a4d1f9d4748362308b1b125c0bb7369fbcd6ea515052bcf59ba
-    home: https://github.com/brannondorsey/helm-charts/tree/master/charts/xmrig
+    home: https://github.com/belowaveragegames/helm-charts/tree/master/charts/xmrig
     icon: https://helm.brannon.online/icons/xmrig.png
     keywords:
     - monero
