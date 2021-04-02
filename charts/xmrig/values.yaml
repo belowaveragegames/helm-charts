@@ -12,6 +12,7 @@ pool: xmr.pool.minergate.com:45700
 email: email@example.com
 password: password
 poolDonationPercent: 1 # 1/100
+coin: monero
 
 randomxMode: fast # also accepts "light" for replicas with < ~5GB RAM
 
