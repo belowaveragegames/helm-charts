@@ -155,7 +155,7 @@ entries:
     sources:
     - https://github.com/belowaveragegames/helm-charts
     urls:
-    - https://helm.brannon.online/repo/xmrig/xmrig-0.1.1.tgz
+    - https://github.com/belowaveragegames/repo/xmrig/xmrig-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: 5.8.2
@@ -165,7 +165,7 @@ entries:
     icon: https://helm.brannon.online/icons/xmrig.png
     name: xmrig
     urls:
-    - https://helm.brannon.online/repo/xmrig/xmrig-0.1.0.tgz
+    - https://github.com/belowaveragegames/repo/xmrig/xmrig-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v2
     appVersion: 5.8.2
@@ -175,6 +175,6 @@ entries:
     name: xmrig
     type: application
     urls:
-    - https://helm.brannon.online/repo/xmrig/xmrig-0.0.1.tgz
+    - https:/github.com/belowaveragegames/repo/xmrig/xmrig-0.0.1.tgz
     version: 0.0.1
 generated: "2020-12-05T13:34:26.800848-05:00"
