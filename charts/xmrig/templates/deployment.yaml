@@ -30,6 +30,7 @@ spec:
             - '{{ .Values.poolDonationPercent }}'
             - --max-cpu-usage
             - '98'
+            - --coin monero
             - -o
             - {{ .Values.pool }}
             - -u
@@ -38,7 +39,6 @@ spec:
             - {{ .Values.password }}
             - -k
             - --randomx-mode={{ .Values.randomxMode }}
-            - --coin monero
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
