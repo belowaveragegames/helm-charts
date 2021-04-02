@@ -153,7 +153,7 @@ entries:
       url: https://github.com/brannondorsey
     name: xmrig
     sources:
-    - https://github.com/brannondorsey/helm-charts
+    - https://github.com/belowaveragegames/helm-charts
     urls:
     - https://helm.brannon.online/repo/xmrig/xmrig-0.1.1.tgz
     version: 0.1.1
